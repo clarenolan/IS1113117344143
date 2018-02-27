@@ -1,0 +1,271 @@
+/*  main nav bar */
+.a {
+    position:fixed;
+    top:0%;
+    width:100%;
+    height:70px;
+    background:#607D8B;
+    z-index:2;
+    
+}
+
+.a  {
+  list-style-type: none;
+  margin: 0;
+}
+
+.a  li {
+  display: inline-block;
+  padding: 30px 20px 0px 20px;
+  line-height: 10px;
+  height: 40px;
+}
+
+.a  li a {
+  text-decoration: none;
+  color: #dbe2f1;
+}
+
+.a  li:hover {
+  background-color: #797979;
+  cursor: pointer;
+}
+
+/*  shop nav bar */
+
+ul.c {
+    position:fixed;
+    top:69px;
+    width:100%;
+    height:60px;
+    background:#90A4AE;
+    z-index:2;
+    font-size: larger;
+    
+}
+
+ul.c li {
+    list-style:none;
+    position:relative;
+    top:40%;
+    left:60%;
+    display:inline;
+    margin:30px;
+    color:#78909C;
+    
+}
+
+ul.c li a{
+    text-decoration: none;
+    color:white;
+}
+
+ul.c li a:hover{
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 8px;
+    
+}
+
+
+.products{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 30%;
+    left: 0%;
+}
+
+.ebus_content h1{
+    position: absolute;
+    top: 10%;
+    left: 42%;
+}
+
+.ebus_content .label1{
+    position: absolute;
+    top: 20%;
+    left: 43%;
+}
+
+.ebus_content .label2{
+    position: absolute;
+    top: 25%;
+    left: 43%;
+}
+
+.ebus_content .label3{
+    position: absolute;
+    top: 30%;
+    left: 43%;
+}
+
+.ebus_content .label4{
+    position: absolute;
+    top: 35%;
+    left: 43%;
+}
+
+.ebus_content .label5{
+    position: absolute;
+    top: 50%;
+    left: 43%;
+}
+.ebus_content .label6{
+    position: absolute;
+    top: 55%;
+    left: 43%;
+}
+.ebus_content .label7{
+    position: absolute;
+    top: 60%;
+    left: 43%;
+}
+
+.ebus_content .label8{
+    position: absolute;
+    top: 65%;
+    left: 43%;
+}
+
+.add_btn{
+    position: absolute;
+    top: 71%;
+    left: 43%;
+}
+
+.add_btn_style{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px 5px;
+    border-radius: 3px;
+    font-size: 90%;
+}
+
+.add_btn_style:hover{
+    cursor: pointer;
+}
+
+.cal_btn{
+    position: absolute;
+    top: 75%;
+    left: 43%;
+    
+    background-color: #ffff00;
+    border: none;
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+    padding: 6px 6px;
+    border-radius: 3px;
+    font-size: 95%;
+}
+
+.cal_btn:hover{
+    cursor: pointer;
+}
+
+.clear_btn{
+    position: absolute;
+    top: 75%;
+    left: 52%;
+    
+    text-decoration: none;
+    color: red;
+    padding: 4px 4px;
+    border: solid 1px red;
+    border-radius: 3px;
+}
+
+
+
+        /* E-business page 2 styling */
+.ebus2_heading{
+    position: absolute;
+    top: 10%;
+    left: 42%;
+}
+
+.lbl_name{
+    position: absolute;
+    top: 20%;
+    left: 43%;
+}
+
+.lbl_email{
+    position: absolute;
+    top: 25%;
+    left: 43%;
+}
+
+.lbl_pin{
+    position: absolute;
+    top: 30%;
+    left: 43%;
+}
+
+.btn_proceed{
+    position: absolute;
+    top: 35%;
+    left: 43%;
+    
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px 5px;
+    border-radius: 3px;
+    font-size: 90%;
+}
+
+.btn_proceed:hover{
+    cursor: pointer;
+}
+
+.btn_validate{
+    position: absolute;
+    top: 40%;
+    left: 43%;
+    
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px 5px;
+    border-radius: 3px;
+    font-size: 90%;
+}
+
+.btn_validate{
+    cursor: pointer;
+}
+
+        /* E-business page 3 styling */
+        
+.ebus3_heading{
+    position: absolute;
+    top: 20%;
+    left: 40%;
+}
+.ebus3_name{
+    position: absolute;
+    top: 30%;
+    left: 40%;
+}
+
+.ebus3_email{
+    position: absolute;
+    top: 35%;
+    left: 40%;
+}
+
+.ebus3_total{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+
