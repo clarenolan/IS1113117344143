@@ -60,7 +60,7 @@ session_start()
             <br>
             <br>
             
-            <button class="btn_proceed" type="submit" id="btnPurchase" disabled>Proceed with Purchase</button>
+            <button class="btn_proceed" type="submit" id="btnPurchase" >Proceed with Purchase</button>
         </form>
         
         <br>

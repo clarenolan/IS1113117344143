@@ -1,3 +1,7 @@
+*{
+    margin-left:0;
+}
+
 /*  main nav bar */
 .a {
     position:fixed;
@@ -35,7 +39,7 @@
 
 ul.c {
     position:fixed;
-    top:69px;
+    top:40px;
     width:100%;
     height:60px;
     background:#90A4AE;
@@ -69,108 +73,150 @@ ul.c li a:hover{
 
 .products{
     position: absolute;
-    height: 100%;
-    width: 100%;
-    top: 30%;
+    top: 16%;
     left: 0%;
+    height:100%;
+    width:100%;
 }
 
-.ebus_content h1{
+.products h1{
     position: absolute;
     top: 10%;
     left: 42%;
 }
 
-.ebus_content .label1{
+.products .lblsalesforce{
     position: absolute;
     top: 20%;
-    left: 43%;
+    left: 13%;
 }
 
-.ebus_content .label2{
+.products #imgsalesforce{
     position: absolute;
+    height:100px;
+    width:140px;
     top: 25%;
-    left: 43%;
+    left: 13%;
 }
 
-.ebus_content .label3{
+.products .lblcloud9{
     position: absolute;
-    top: 30%;
-    left: 43%;
+    top: 20%;
+    left: 33%;
 }
 
-.ebus_content .label4{
+.products #imgcloud9{
     position: absolute;
-    top: 35%;
-    left: 43%;
+    height:100px;
+    width:140px;
+    top: 25%;
+    left: 33%;
 }
 
-.ebus_content .label5{
+.products .lblaws{
+    position: absolute;
+    top: 20%;
+    left: 53%;
+}
+
+.products #imgamazon{
+    position: absolute;
+    height:100px;
+    width:140px;
+    top: 25%;
+    left: 53%;
+}
+
+.products .lblgmail{
+    position: absolute;
+    top: 20%;
+    left: 73%;
+}
+
+.products #imggmail{
+    position: absolute;
+    height:120px;
+    width:140px;
+    top: 25%;
+    left: 73%;
+}
+
+.products .lblsubtotal{
     position: absolute;
     top: 50%;
     left: 43%;
 }
-.ebus_content .label6{
+.products .lbldiscount{
     position: absolute;
     top: 55%;
     left: 43%;
 }
-.ebus_content .label7{
+.products .lblvat{
     position: absolute;
     top: 60%;
     left: 43%;
 }
 
-.ebus_content .label8{
+.products .lbltotal{
     position: absolute;
     top: 65%;
     left: 43%;
 }
 
-.add_btn{
+.btnAdd{
     position: absolute;
     top: 71%;
     left: 43%;
 }
 
-.add_btn_style{
-    background-color: #4CAF50;
-    border: none;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    padding: 5px 5px;
-    border-radius: 3px;
-    font-size: 90%;
+.btnAdd_style{
+width: 250px;
+  margin: 20px auto;
+  padding: 10px;
+  
+  background-color: #fff;
+  border: 1px solid #ccc;
+
+  color: #000;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(128, 128, 128, 0.1) inset;
+  border-color: #dedede;
 }
 
-.add_btn_style:hover{
+
+
+.btnAdd:hover{
     cursor: pointer;
 }
 
-.cal_btn{
+.btnCalculate{
     position: absolute;
-    top: 75%;
+    top: 80%;
     left: 43%;
     
-    background-color: #ffff00;
+    background-color: #00ACC1;
     border: none;
     color: #000;
     text-align: center;
     text-decoration: none;
     padding: 6px 6px;
     border-radius: 3px;
-    font-size: 95%;
+    font-size: 75%;
+    text-transform: uppercase;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(128, 128, 128, 0.1) inset;
+  border-color: #dedede;
 }
 
-.cal_btn:hover{
+.btnCalculate:hover{
     cursor: pointer;
 }
 
-.clear_btn{
+.btnClear{
     position: absolute;
-    top: 75%;
-    left: 52%;
+    top: 80%;
+    left: 53%;
     
     text-decoration: none;
     color: red;

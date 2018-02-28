@@ -24,12 +24,12 @@ function calcSub(){
 function calcDisVatTotal(parmSubTotal){
     var discount, vat, total;
     
-    discount = parmSubTotal * 0.05
-    vat = (parmSubTotal - discount)*0.10
+    discount = parmSubTotal * 0.05;
+    vat = (parmSubTotal - discount)*0.10;
     
-    total = parmSubTotal - discount - vat
+    total = parmSubTotal - discount + vat;
     
-    display(parmSubTotal, discount, vat, total)
+    display(parmSubTotal, discount, vat, total);
 }
 
 function display(parm1, parm2, parm3, parm4){
