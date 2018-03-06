@@ -191,9 +191,9 @@ ul.b li a:hover{
 }
 
 .book{
-    top:40%;
-    left:30%;
-    height:8%;
+    top:48%;
+    left:78%;
+    height:30%;
 }
 
 
@@ -201,7 +201,7 @@ ul.b li a:hover{
     font-family: 'Quicksand', sans-serif;
     position:absolute;
     top:3%;
-    left:7%;
+    left:4%;
     font-size: 40px;
 }
 
@@ -210,7 +210,7 @@ ul.b li a:hover{
     top:15%;
     left:4%;
     font-size: 25px;
-    margin:14px;
+    margin:12px;
     
 }
 
@@ -233,4 +233,30 @@ ul.b li a:hover{
     position: absolute;
     top:72%;
     left:34%;
+}
+
+#linkdin{
+    position:absolute;
+    height:12%;
+    top:82%;
+    left:86%;
+}
+
+#twitter{
+    position:absolute;
+    height:12%;
+    top:82%;
+    left:78%;
+}
+
+#profile{
+    font-size: 18px;
+    margin:8px;
+}
+
+.comp{
+    position: absolute;
+    height:30%;
+    top:79%;
+    left:78%;
 }

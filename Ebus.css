@@ -227,7 +227,6 @@ width: 250px;
 
 
 
-        /* E-business page 2 styling */
 .ebus2_heading{
     position: absolute;
     top: 10%;
@@ -289,8 +288,6 @@ width: 250px;
 .btn_validate{
     cursor: pointer;
 }
-
-        /* E-business page 3 styling */
         
 .ebus3_heading{
     position: absolute;
@@ -315,3 +312,16 @@ width: 250px;
     left: 40%;
 }
 
+#txtname{
+    width:70%;
+}
+#txtemail{
+    width:70%;
+}
+#txtpin{
+    width:70%;
+}
+
+#form{
+    width:100%;
+}

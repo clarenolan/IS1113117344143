@@ -9,7 +9,7 @@ session_start()
         
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
-        <!--jQuery-->
+      
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script type="text/javascript" src="ebus2_validator.js"></script>
         
@@ -38,23 +38,23 @@ session_start()
             
             <label for="user_name" class="lbl_name">
                 Name
-                <input type="name" id="user_name" name="user_name" placeholder="Enter Your Name">
+                <input type="name" id="txtname" name="user_name" placeholder="Name">
             </label>
             
             <br>
             
             <label for="user_email" class="lbl_email">
                 Email address
-                <input type="email" id="user_email" name="user_email" placeholder="example@gmail.com">
+                <input type="email" id="txtemail" name="user_email" placeholder="example@gmail.com">
             </label>
             
             <br>
 
             <label for="user_pin" class="lbl_pin">
                 PIN
-                <input type="pin" id="user_pin" name="user_pin" placeholder="Enter PIN" maxlength="4" pattern="\d{4}">
+                <input type="pin" id="txtpin" name="user_pin" placeholder="Enter PIN" maxlength="4" pattern="\d{4}">
                 <br>
-                (Only numbers are allowed for the PIN)
+            
             </label>
             
             <br>
