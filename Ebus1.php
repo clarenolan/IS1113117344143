@@ -76,7 +76,6 @@
             <label for="discount" class="lbldiscount">
               Discount @ 5% &nbsp;&nbsp;&nbsp; <input type="text" id="discount" name="discount" value="0.00" readonly/>
               <br>
-              (- Discount)
             </label>
                 
             <br>
