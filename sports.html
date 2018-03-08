@@ -8,38 +8,12 @@
  
     </head>
     
-    <script>
-      var slideIndex = 1;
-showSlides(slideIndex);
-
-// Next/previous controls
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-// Thumbnail image controls
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1} 
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none"; 
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block"; 
-  dots[slideIndex-1].className += " active";
-}
-    </script>
     
-    <body>
+    
+  
+  <body>
+    
+            	  
     <ul class="a">
           <li><a href="Homepage.html">Home</a></li> 
           <li><a href="cv_page1.html">CV</a></li>
@@ -47,91 +21,19 @@ function showSlides(n) {
           <li><a href="EbusHome.html">Shop</a></li>
     </ul>
     
+   
+
+
+        <!-- buttons -->
     <div id="buttons">
           <a href="travel.html" class="btn travel">Travel</a>
           <a href="sports.html" class="btn sports">Sports</a>
           <a href="cloud.html" class="btn cloud">Cloud Services</a>
     </div>
     
-    <!-- Slideshow container -->
-<div class="slideshow-container">
+   
 
-  <!-- Full-width images with number and caption text -->
-  <div class="mySlides fade">
-    <div class="numbertext">1 / 3</div>
-    <img src="dancing.JPG" style="width:100%">
-    <div class="text">Caption Text</div>
-  </div>
-
-  <div class="mySlides fade">
-    <div class="numbertext">2 / 3</div>
-    <img src="BATON.JPG" style="width:100%">
-    <div class="text">Caption Two</div>
-  </div>
-
-  <div class="mySlides fade">
-    <div class="numbertext">3 / 3</div>
-    <img src="run.JPG" style="width:100%">
-    <div class="text">Caption Three</div>
-  </div>
-
-  <!-- Next and previous buttons -->
-  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1)">&#10095;</a>
-</div>
-<br>
-
-<!-- The dots/circles -->
-<div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span> 
-  <span class="dot" onclick="currentSlide(2)"></span> 
-  <span class="dot" onclick="currentSlide(3)"></span> 
-</div>
+  </body>  
     
-    <div id="batonMajo">
-     <img  src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxAQDw8QEA8NDhAXEA8QEBAPEBAPDxAQFRUWFhUSGBMYHCggGBolGxMVITEiJSktLi4zFx8zODMsNygtLisBCgoKDg0OFRAQGisZFR0rKysrKystLS0rLSsrKzcrKy0tKystKy03LS03LSsrKysrLSsrKysrKysrKysrKysrK//AABEIAJ4BPwMBIgACEQEDEQH/xAAbAAEAAgMBAQAAAAAAAAAAAAAAAQYDBAUHAv/EADcQAAIBAwICCAUDAwQDAAAAAAABAgMEEQUxEiEGEyJBUWFxgQcjMlKRYnKCFKHxQrHB8CRDVP/EABgBAQEBAQEAAAAAAAAAAAAAAAABAgQD/8QAHREBAQEAAgIDAAAAAAAAAAAAAAERAjEDEiFBcf/aAAwDAQACEQMRAD8A9xAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABzat5Uy3FR4U8bZbJp6rDKU/ltvCz9LfqY9+O4uOiADaAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAhyS35epwNc6W2lrFuVSMpdyT/5A7s6iist4NC4uJS27Mf7s4mn9I6V1QjcQbeW1iXLDRirX7l9z8op4OXn5b1G5xdWd7GHJdpnG1puUeLbElJY7jDVupxxilPn34bNy1s61dcMoOMXvJ8uR45z5Vv4i1WtXjhCXjGL/KMxjoUlCMYrZJJeiMh3x4gAKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABGQJBy9W1+1tVmvWhB90c5m/SK5lK1L4jzqPgs7ecm+UZS5yfnju/uXEvKR6JXuIQWZyjFeLeCo658QrahmNP5s+5Lb8Ln/scCj0Z1XUHx3Vb+mpvnhtuTX7c5/OC26F0IsrXDVPranfUq9p58UtkT8FMdzrOqP5UHbUX/AOyp2VjxUf8APqdvRfhlbQaqXdSpe1c5xNtUk/295fFHHJciQY0KGjW0FiFGnFeCXL8G1/Twxjhj7LBlBMi6wxtoL/SjKkSCgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYLi6p01xTnGC8W0gM5EpJbvC8yq6j00prKt4SrNbzfYprz4mcFy1C/fZ45Q8Yt0reP82sy/ivcJq16v0rtrdYcutn9lPn/AHKdedKdQvZOla0pUk/sXFPHm9l7ssGl9B6UcSuJ9bL7IJwp+73l7stNrbU6UVGnCMI+EUkgY870v4cznLrLyq+J83GL6yo35yfJe2fUvOl6Jb2yxRpQi/u3m/5M6IC4gkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPmc0k3JpJc220kl6ldvOmFBSdO3U7ypzz1KzTj5yqbJAWRnO1DWrehynUXF9ke1L8IqFzr1a4k6cZym9nRsl1nD5Tq/Sjc03o1Xlhz4baPeofMrP1qPZ+hNH3qHSatLlCKt4v6ZVO1Ul+2mubNShoVzcvimpJb9Zc5z6xorb+TLbp+kUKHOEFxd9SXbqP1k+ZvgcKw6MW9NqU0681s6mOFekFyR3EsLGxIKIJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEZAkHMv8AXbei2pVIymllwi02l4vw9yhaz8TVKp1FnGVertwW662fvLaJNHpF3eU6SzUnGC83zfoio678QqFDsww5vlHi5yfpFc2cCz6LarfPjuaisab3in1lxJebexb9B6C2No+KNFVavfWrfMqN+r2ApXBqWqTT4KnV5TXWt06KX7VuW3TOhaUVG4qupHk+pprqqOfNLf3LZGKW3I+hgwWtpTpRUKdOFOK2jCKSRnAKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAjJr3N7Tp/VJZ+1c5fgDYyfNWrGKzJqK8W8Iqev8ATSjbLEp06T7lLt1ZeSprnn1K3G61XUXm1t3Qpva6vt8eMKGy9/wEXTV+lFGhTlPMcJfXOSp0/wAvf8Hntz0sv9Sk6djTrV47cVLioWqXnVfamvTkWbS/hpb8Ua2oVaup11z+e/kxf6aS7K/Bd6FCFOKhCMYRW0YJRivZBXmOl/CydbE9SuXOO/8AS22adH+T3l75PQNG0G1s4KFtQpUY4x2IpN+r3Z0gBBIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHxKrFYTlFN7ZaWSZTS3aXqB9A1al/Tj35fguZzr3WpxlCNOnF8XF2qk+GMcJPL/AMmfaDtNmjX1WmsqGasu/g+lebk+SKpc6vKtJxpRq6hU+yn8q0g/1T7/AGz6kw6JXV1h3906dL/5LT5VPHhKe8ij41XprHjdKnKdersreyXWTb8JVdo+2DVoaHq159dSnpVB7xpYq3cl+qo1yfoXbSdGtrWChb0adJfpS4n6y3Z0CitaB0HsLN8UKPW1u+vcN1qzf7pZwWRIkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAiTwiSJLKaApfSebdelOTxHDx4J8jZVzHhTlJy5eOTH0otnOk4vlOL4ovx/6it6bVqzfVU48dTnvsl4nLdvXbciw1tQ7orn3d7fsbFHo/K5X/AJOVSyn1f+qWPF9yNrQdIcO3NZl4vf2LAjfDxfdS1jt7eFOKjCMYxSwklgygHuyAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMVahGaxKKl6ow2enUaTk6dOMG/qaXN+5tEkyAACgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//Z" class="spin" id ="ball">
-</div>
-    
-    <script>
-    var degree = 0;
-var degreeFlag = 0;     
-var endAngle = 0;
-var ball = document.getElementById("ball");
-var rotatingTimer = 0;
-
-function crossBrowserTransform(ele,deg){
-    ele.style.webkitTransform  = 'rotate('+deg+'deg)'; 
-    ele.style.mozTransform    = 'rotate('+deg+'deg)'; 
-    ele.style.msTransform     = 'rotate('+deg+'deg)'; 
-    ele.style.oTransform      = 'rotate('+deg+'deg)'; 
-    ele.style.transform       = 'rotate('+deg+'deg)'; 
-}
-    
-function  startAnimation(){       
-  rotatingTimer = setInterval(function(){
-    if(degreeFlag>360){
-      degreeFlag = 0;
-    }
-    else{
-      degreeFlag = degreeFlag+1;
-    } 
-    crossBrowserTransform(ball,degree);
-    degree = ++degree;                
-  }, 4);       
-}
-
-function stopAnimation(){
-  clearInterval(rotatingTimer);
-  endAngle = Math.round((degreeFlag/90))*90;
-  console.log(endAngle,degreeFlag);
-  crossBrowserTransform(ball,endAngle);
-}
-
-startAnimation();
-document.body.onclick = function(){
-  stopAnimation();
-}
-        
-    </script>
-    </body>
+  
 </html>
