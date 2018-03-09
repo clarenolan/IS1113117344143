@@ -74,5 +74,11 @@ background: linear-gradient(to left, #158 , #2455)
     color:white;
 }
 
-
+#heroku{
+    position: absolute;
+    right:1%;
+    top:2%;
+    height:5%;
+    z-index:3;
+}
 
